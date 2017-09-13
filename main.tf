@@ -1,7 +1,3 @@
-variable "domain" {}
-variable "redirect" {}
-variable "zone_id" {}
-
 resource "aws_s3_bucket" "apex" {
   bucket = "${var.domain}"
   acl = "public-read"
