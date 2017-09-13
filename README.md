@@ -4,6 +4,8 @@ Terraform module for AWS allowing you to redirect from one domain to another usi
 
 ## Usage
 
+Let's say we want to redirect all traffic from example.com to example.net.
+
 ```
 module "example_com_redirect" {
   source = "github.com/portpaw/tf_aws_domain_redirect"
@@ -14,6 +16,8 @@ module "example_com_redirect" {
 ```
 
 This assumes you've already set up a Route 53 Terraform resource for example.com.
+
+The module takes care to set up DNS records for both www.example.com as well as the bare domain.
 
 ## Authors
 
