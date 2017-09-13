@@ -17,7 +17,7 @@ This assumes you've already set up a Route 53 Terraform resource for example.com
 
 ## Authors
 
-Created by (Jon Mooring)[https://github.com/portpaw]
+Created by [Jon Mooring](https://github.com/portpaw)
 
 ## License
 
